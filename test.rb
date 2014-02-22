@@ -103,4 +103,17 @@ check_sign2(0)
 check_sign2(1)
 check_sign2(-1)
 
-p
+#loops
+2.times do
+	puts "Say Hello"
+end
+
+#Arrays
+A=[1,2,3,4,5]
+#numbers characters and string can be mixed in arrays
+B=['a',1,'cer','did']
+puts B[0]
+puts B[1]
+puts B[2]
+
+
