@@ -37,6 +37,10 @@ puts [1,2,3,4,5].join(',')
 puts "\nCreating Arrays\n"
 puts (0..9).to_a
 
+#Another way for creating string arrays %w
+a=%w[foo bar baz quxx]
+puts a[0..3]
+
 #Transforming arrays
 
 puts "\n Transforming Arrays \n"
